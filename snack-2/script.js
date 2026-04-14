@@ -13,3 +13,12 @@ function printNames (arr) {
 };
 people.forEach(printNames);
 
+// Funzione anonima
+people.forEach (function(arr) {
+  console.log(arr.name);
+});
+
+// Arrow function
+people.forEach ((arr) => {
+  console.log(arr.name);
+});
