@@ -22,3 +22,9 @@ people.forEach (function(arr) {
 people.forEach ((arr) => {
   console.log(arr.name);
 });
+
+// Per stampare in un unico array (.map)
+function stampaNomi (nomi) {
+    return nomi.name
+};
+console.log(people.map(stampaNomi));
