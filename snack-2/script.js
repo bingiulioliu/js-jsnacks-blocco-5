@@ -6,3 +6,10 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+// Funzione + callback esterno
+function printNames (arr) {
+  console.log(arr.name);
+};
+people.forEach(printNames);
+
