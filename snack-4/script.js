@@ -7,3 +7,14 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+// Function + callback
+function getAuthor (arr) {
+  return arr.author;
+};
+const authorList = posts.map(getAuthor)
+console.log(authorList);
+
+// Arrow contratta
+const arrAuthList = posts.map(post => post.author);
+console.log(arrAuthList);
