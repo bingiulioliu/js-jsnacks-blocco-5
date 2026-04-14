@@ -14,3 +14,7 @@ names.forEach(function (nome, i) {
     console.log(nome);
 });
 
+// Arrow function
+names.forEach((name)  => {
+    console.log(name);
+});
