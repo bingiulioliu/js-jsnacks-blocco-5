@@ -22,14 +22,11 @@ const students = [
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
 
-function findClass (student){
-  let classe
-  if (student.name === 'Marco Lanci') {
-    classe = student.class
-  }
-  return classe;
+function whereIsMarco (student){
+  if (student.name === 'Marco Lanci'){
+    return student};
 }
-const lanciClass = students.find(findClass).class;
+const lanciClass = students.find(whereIsMarco).class;
 console.log(lanciClass);
 
 
